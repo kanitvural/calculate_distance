@@ -17,6 +17,8 @@ def calculate_road_distance(
 
     Example:
         >>> distance = calculate_road_distance((41.0082, 28.9784), (39.9208, 32.8541))
+    Example2:
+        >>> distance = some example
     """
 
     def to_radians(degrees: float) -> float:
