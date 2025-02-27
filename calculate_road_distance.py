@@ -39,8 +39,10 @@ def calculate_road_distance(
     )
     c = 2 * math.asin(math.sqrt(a))
     distance = EARTH_RADIUS_KM * c
+    
+    distance_meter = distance * 1000  # Convert to meters
 
-    return distance * 1000  # Convert to meters
+    return distance_meter
 
 # Example
 result = calculate_road_distance((40.9956, 37.8763), (41.0000, 37.8694))
