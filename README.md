@@ -2,4 +2,4 @@
 
 It is a function that measures the distance between two points on the Google Maps without using an API.
 
-1. It uses Harvesine distance formula.
+-  It uses Harvesine distance formula.
